@@ -2,3 +2,19 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+.h1-orange {
+  h1 {
+    color: #d33d27;
+    font-size: bold;
+  }
+}
+
+.icono-home {
+  img {
+    width: 150px;
+  }
+}
+
+.padded {
+  padding: 50px 40px;
+}

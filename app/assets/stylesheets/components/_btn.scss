@@ -1,0 +1,26 @@
+.home-btn {
+  color: #d33d27;
+  background-color: transparent;
+  border: 2px solid #d33d27;
+  border-radius: 3px;
+  padding: 10px 30px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+.home-btn:hover{
+  opacity: 1;
+  color: #d33d27;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  color: #d33d27;
+}

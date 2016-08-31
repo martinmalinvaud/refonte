@@ -1,0 +1,21 @@
+.event-banner {
+  text-align: center;
+  height: 80vh;
+  background: linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 50%), url('banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.event-banner-content {
+
+  h1 {
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+}

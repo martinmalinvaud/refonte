@@ -1,7 +1,12 @@
 .h1-orange {
   h1 {
     color: #d33d27;
-    font-size: bold;
+    font-weight: bold;
+  }
+}
+.h2-bold{
+  h2 {
+    font-weight: bold;
   }
 }
 .icono-home {
@@ -10,20 +15,57 @@
   }
 }
 .padded {
-  padding: 50px 70px;
+  padding: 50px 80px;
 }
 
 .flexbox {
   width: 100%;
   display: flex;
 }
-.flexbox-7 {
+.img-item-lady {
+  image: center center;
   flex: 1.6;
   background-image: url("lady-eating-strawberry-sorbet.jpg");
   background-size: cover;
 }
+.img-item-tacos {
+  image: center center;
+  flex: 1.6;
+  background-image: url("tacos-ft.jpg");
+  background-size: cover;
+}
 
-.flexbox-5 {
+.text-item {
   flex: 1;
-  padding: 50px 100px;
+  padding: 10px 50px;
+}
+
+@media screen and (max-width: 768px){
+  .flexbox{
+    flex-direction: column;
+  }
+  .img-item-lady, .img-item-tacos {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  }
+}
+.en-savoir-plus {
+  color: #d33d27;
+  font-size: 26px;
+  font-weight: bold;
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #d33d27 ;
+  }
+  a:focus {
+    color: #d33d27;
+  }
+}
+
+.margin-top-50{
+  margin-top: 50px;
 }

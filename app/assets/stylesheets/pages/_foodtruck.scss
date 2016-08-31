@@ -1,0 +1,32 @@
+.flexboxft {
+  width: 100%;
+  display: flex;
+}
+.baguette {
+  image: center center;
+  flex: 1.6;
+  background-image: url("baguette.jpg");
+  background-size: cover;
+}
+.anexe {
+  image: center center;
+  flex: 1.6;
+  background-image: url("anexe.jpg");
+  background-size: cover;
+}
+
+.text-item {
+  flex: 1;
+  padding: 10px 50px;
+}
+
+@media screen and (max-width: 768px){
+  .flexboxft{
+    flex-direction: column;
+  }
+  .baguette, .anexe {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  }
+}

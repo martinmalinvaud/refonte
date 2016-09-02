@@ -1,0 +1,93 @@
+.flexbox-event-choix {
+  width: 100%;
+  display: flex;
+  image: center center;
+  background-image: url("food-salad-healthy-vegetables.jpg");
+  background-size: cover;
+  min-height: 350px;
+  h3 {
+    margin-top: 125px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  p {
+    color: white;
+  }
+}
+
+.flexbox-event-interlocuteur {
+  width: 100%;
+  display: flex;
+  image: center center;
+  background-image: url("nana.jpg");
+  background-size: cover;
+  min-height: 350px;
+  h3 {
+    margin-top: 125px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  p {
+    color: white;
+  }
+}
+
+.flexbox-event-camtar {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  min-height: 350px;
+  h3 {
+    margin-top: 125px;
+    color: #d33d27;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  p {
+    color: #000;
+  }
+}
+
+.flexbox-event-radis {
+  width: 100%;
+  display: flex;
+  min-height: 350px;
+  image: center center;
+  background-image: url("radis.png");
+  background-size: cover;
+  h3 {
+    margin-top: 125px;
+    color: #d33d27;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  p {
+    color: #000;
+  }
+}
+
+
+.flexbox-event-location {
+  width: 100%;
+  display: flex;
+
+  background-image: url("location.jpg");
+  background-size: cover;
+  min-height: 350px;
+  h3 {
+    margin-top: 125px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 26px;
+  }
+  p {
+    color: white;
+  }
+}

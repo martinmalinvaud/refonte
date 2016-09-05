@@ -1,7 +1,7 @@
 .home-btn {
-  color: #d33d27;
+  color: orange;
   background-color: transparent;
-  border: 2px solid #d33d27;
+  border: 2px solid orange;
   border-radius: 3px;
   padding: 10px 30px;
   opacity: 0.6;
@@ -12,7 +12,7 @@
 }
 .home-btn:hover{
   opacity: 1;
-  color: #d33d27;
+  color: orange;
 }
 
 a {
@@ -22,19 +22,19 @@ a:hover {
   text-decoration: none;
 }
 a:focus {
-  color: #d33d27;
+  color: orange;
 }
 
 .btn-nous-contacter{
   margin-top: 300px;
-  color: #d33d27;
-  border: 2px solid #d33d27;
+  color: orange;
+  border: 2px solid orange;
   border-radius: 3px;
   padding: 10px 30px;
   opacity: 0.6;
   transition: opacity 0.3s ease;
 }
 .btn-nous-contacter:hover{
-  color: #d33d27;
+  color: orange;
   opacity: 1;
 }

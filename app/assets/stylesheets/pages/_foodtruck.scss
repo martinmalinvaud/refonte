@@ -1,18 +1,23 @@
 .flexboxft {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
 }
 .baguette {
-  image: center center;
   flex: 1.6;
   background-image: url("baguette.jpg");
   background-size: cover;
+  background-image: center;
+  height: 350px;
 }
 .anexe {
-  image: center center;
   flex: 1.6;
   background-image: url("anexe.jpg");
   background-size: cover;
+  background-image: center;
+  height: 350px;
 }
 
 .text-item {

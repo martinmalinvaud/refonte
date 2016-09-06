@@ -35,3 +35,22 @@
   margin: auto;
   }
 }
+
+
+.h2-small-bar{
+  h2 {
+    position:relative;
+    padding-bottom: 10px;
+    font-weight: bold;
+    z-index: 2;
+  &:after {
+      content: "";
+      position: absolute;
+      border-bottom: 3px solid $orange;
+      width: 30px;
+      bottom: 0;
+      left: 5%;
+      transform: translateX(-50%);
+    }
+  }
+}

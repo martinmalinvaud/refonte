@@ -43,7 +43,7 @@
   min-height: 350px;
   h3 {
     margin-top: 125px;
-    color: orange;
+    color: #FF5722;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 26px;
@@ -62,7 +62,7 @@
   background-size: cover;
   h3 {
     margin-top: 125px;
-    color: orange;
+    color: #FF5722;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 26px;
@@ -77,7 +77,7 @@
   width: 100%;
   display: flex;
 
-  background: linear-gradient(-45deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.6) 50%), url("location.jpg");
+  background: linear-gradient(-45deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 50%), url("location.jpg");
   background-size: cover;
   min-height: 350px;
   h3 {

@@ -7,8 +7,8 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <%= link_to "EVENT", "event", class: "navbar-wagon-item navbar-wagon-button btn" %>
-    <%= link_to "FOODTRUCK", "foodtruck", class: "navbar-wagon-item navbar-wagon-button btn" %>
+    <%= link_to "EVENT", "event", class: "navbar-wagon-link navbar-wagon-item" %>
+    <%= link_to "FOODTRUCK", "foodtruck", class: "navbar-wagon-link navbar-wagon-item" %>
 
 
     <!-- Button (call-to-action) -->
@@ -20,8 +20,8 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Mobile link</a></li>
-        <li><a href="#">Mobile link</a></li>
+        <li><%= link_to "EVENT", "event", class: "navbar-wagon-link navbar-wagon-item" %></li>
+        <li><%= link_to "FOODTRUCK", "foodtruck", class: "navbar-wagon-link navbar-wagon-item" %></li>
         <li><a href="#">Mobile link</a></li>
       </ul>
     </div>

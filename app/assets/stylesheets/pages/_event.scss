@@ -1,7 +1,7 @@
 .flexbox-event-choix {
   width: 100%;
   display: flex;
-  image: center center;
+  background-position: 50% 50%;
   background: linear-gradient(-45deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.6) 50%), image-url('food-salad-healthy-vegetables.jpg');
   background-size: cover;
   min-height: 350px;
@@ -20,7 +20,7 @@
 .flexbox-event-interlocuteur {
   width: 100%;
   display: flex;
-  image: center center;
+  background-position: 50% 50%;
   background: linear-gradient(-45deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.6) 50%), image-url("nana.jpg");
   background-size: cover;
   min-height: 350px;
@@ -57,7 +57,7 @@
   width: 100%;
   display: flex;
   min-height: 350px;
-  image: center center;
+  background-position: 50% 50%;
   background-image: image-url("radis.png");
   background-size: cover;
   h3 {

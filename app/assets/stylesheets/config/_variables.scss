@@ -2,11 +2,12 @@
  * Fonts
  * ------------------------------------- */
 // Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
 $base-font: "Open Sans", "Helvetica", "sans-serif";
-$header-font: "Raleway", "Helvetica", "sans-serif";
+$header-font: "Monserrat", "Helvetica", "sans-serif";
 
-// Local fonts (uncomment following lines)
+// Local fonts (uncomment foing lines)
 // @font-face {
 //   font-family: "Font Name";
 //   src: font-url('FontFile.eot');

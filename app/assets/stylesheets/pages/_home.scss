@@ -38,13 +38,13 @@
 .img-item-lady {
   image: center center;
   flex: 1.3;
-  background-image: url("lady-eating-strawberry-sorbet.jpg");
+  background-image: image-url("lady-eating-strawberry-sorbet.jpg");
   background-size: cover;
 }
 .img-item-tacos {
   image: center center;
   flex: 1.3;
-  background-image: url("tacos-ft.jpg");
+  background-image: image-url("tacos-ft.jpg");
   background-size: cover;
 }
 

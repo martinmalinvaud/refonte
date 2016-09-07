@@ -26,6 +26,7 @@
 
 /* Navbar right section (with form, links, button) */
 .navbar-wagon-right {
+  margin-right: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,7 +42,8 @@
 /* Navbar standard link */
 .navbar-wagon-link {
   color: #FF5722;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
 }
 .navbar-wagon-link:hover {
   color: #da552f;

@@ -1,7 +1,7 @@
 class User < ApplicationRecord
 
   after_create :send_welcome_email
-  if login?
+  if User.connected?
     :notification
   end
   # Include default devise modules. Others available are:

@@ -7,10 +7,26 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
+
+
     <%= link_to "EVENT", "event", class: "navbar-wagon-link navbar-wagon-item" %>
     <%= link_to "FOODTRUCK", "foodtruck", class: "navbar-wagon-link navbar-wagon-item" %>
     <a href="http://thefoodtruck.agency/blog" class="navbar-wagon-link navbar-wagon-item"> BLOG </a>
     <%= link_to "CONTACT", "contact", class: "navbar-wagon-link navbar-wagon-item" %>
+
+
+     <!-- Different navigation if login or not -->
+    <% if user_signed_in? %>
+      <%= link_to destroy_user_session_path, class: "navbar-wagon-item navbar-wagon-link", method: :delete do %>
+        <i class="fa fa-sign-out"></i>  <%= t ".sign_out", default: "Log out" %>
+      <% end %>
+
+    <% else %>
+
+      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-wagon-item navbar-wagon-link" %>
+
+      <!-- Login text link -->
+    <% end %>
 
     <!-- Button (call-to-action) -->
 

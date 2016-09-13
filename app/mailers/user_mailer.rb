@@ -10,10 +10,4 @@ class UserMailer < ApplicationMailer
 
     mail to: @user.email, subject: "bonjour #{@user.email}"
   end
-
-  def notification(user)
-    @user = user
-
-    mail to: @user.email, subject: "bonjour #{@user.email}- conexion vers #{}"
-  end
 end

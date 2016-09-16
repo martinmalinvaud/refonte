@@ -6,5 +6,10 @@ tmp/*
 .DS_Store
 public/assets
 
+.env
+Procfile
+
 # Ignore application configuration
 /config/application.yml
+
+

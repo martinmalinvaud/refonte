@@ -10,6 +10,7 @@ gem 'devise', github: 'plataformatec/devise'
 gem 'redis'
 
 gem 'mail_form'
+gem 'foreman'
 
 gem 'sass-rails'
 gem 'jquery-rails'

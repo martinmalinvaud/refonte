@@ -11,7 +11,6 @@ gem 'redis'
 
 gem 'mail_form'
 
-
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'

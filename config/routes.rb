@@ -2,8 +2,6 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
-  match '/contacts',     to: 'contacts#new',             via: 'get'
-  resources "contacts", only: [:new, :create]
 
   get "event" => "pages#event"
   get "foodtruck" => "pages#foodtruck"

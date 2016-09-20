@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   get "event" => "pages#event"
   get "foodtruck" => "pages#foodtruck"
-  get "contact" => "pages#contact"
+  get "contact" => "pages#contact-us"
   get "cgv" => "pages#cgv"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

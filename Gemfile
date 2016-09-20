@@ -10,7 +10,7 @@ gem 'devise', github: 'plataformatec/devise'
 gem 'redis'
 
 
-
+gem 'contact_us', '~> 1.2'
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'

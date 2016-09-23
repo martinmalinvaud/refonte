@@ -1,0 +1,17 @@
+.contact {
+  padding: 50px 800px;
+}
+
+.contact-button {
+  transition: all 0.3s ease;
+  color: #fff;
+  border: 2px solid $orange;
+  border-radius: 3px;
+  padding: 10px 30px;
+  background-color: $orange;
+}
+.contact-button:hover {
+  color: $orange;
+  background-color: transparent;
+  border: 2px solid $orange;
+}

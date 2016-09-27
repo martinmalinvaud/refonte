@@ -9,8 +9,6 @@ gem 'jbuilder', '~> 2.0'
 gem 'devise', github: 'plataformatec/devise'
 gem 'redis'
 
-
-gem 'contact_us', '~> 1.2'
 gem 'sass-rails'
 gem 'jquery-rails'
 gem 'uglifier'
@@ -28,5 +26,7 @@ group :development, :test do
   gem 'listen', '~> 3.0.5'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+gem "letter_opener", group: :development
 
 
